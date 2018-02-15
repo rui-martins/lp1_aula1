@@ -10,7 +10,13 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
+            for (int i = 0; i < args.Length; i++ )
+            {
+                Console.WriteLine(args[i]);
+            }
+            int numero = 8;
             Console.WriteLine("Ola Mundo");
+            Console.WriteLine(numero);
         }
     }
 }
